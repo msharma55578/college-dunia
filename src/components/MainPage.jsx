@@ -4,6 +4,10 @@ import jfile from "./colleges.json";
 import "./Main.css";
 
 export default class MainPage extends Component {
+  constructor() {
+    super();
+  }
+  
   render() {
     const post = jfile.colleges;
     return (
@@ -14,7 +18,7 @@ export default class MainPage extends Component {
               <div className="card_box">
                 <h3>{details.college_name}</h3>
                 <p>discount: {details.discount}</p>
-                {/* <img src={"/college_02.jpg"} alt="logo" /> */}
+
               </div>
             );
           })}

@@ -5,7 +5,7 @@
   margin: auto;
 }
 .card_box{
-  /* background: url("college_02.jpg"); */ 
+  background: url("../images/college_02.jpg"); 
   width: 428px;
   height: 220px;
   display: inline-block;
