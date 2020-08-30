@@ -1,0 +1,14 @@
+.layer{
+  width: 1200px;
+  height:1100;
+  background-color:#ffffff;
+  margin: auto;
+}
+.card_box{
+  /* background: url("college_02.jpg"); */ 
+  width: 428px;
+  height: 220px;
+  display: inline-block;
+  border-style: solid;
+  margin: 20px;
+}
