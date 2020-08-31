@@ -1,8 +1,11 @@
 .layer {
   width: 1400px;
-  height: 1100px;
+  height:100%;
   background-color: #ffffff;
   margin: auto;
+  margin-top: 50px;
+  border: solid rgb(56, 55, 55);
+  border-width:thin;
 }
 .card {
   /* background: url("../images/college_02.jpg");  */
@@ -11,7 +14,8 @@
   display: inline-block;
   border:solid gray;
   margin: 15px;
-  margin-left: 50px;
+  margin-left: 75px;
+  margin-bottom:70px ;
   /* position: relative;
   text-align: center;
    */
@@ -183,10 +187,20 @@ content: "";
   color:white;
 
 }
+.bottom-right6{
+  position: absolute;
+  bottom: 110px;
+  right:65px;
+  color:rgb(105, 102, 102);
+  text-decoration: line-through;
+  font-size: smaller;
+
+}
 .famous{
   text-align: left;
   margin-top:12px;
   font-size: smaller;
+  color:rgb(105, 102, 102);
 }
 .penta{
   background: red;
@@ -206,4 +220,11 @@ content: "";
       right: 20px;
       position: absolute;
       top: 0px;  
+}
+.clghead{
+  text-align:left;
+  margin-left:80px;
+  font-size: large;
+  padding: 20px;
+  color: rgb(92, 84, 84);
 }
